@@ -9,13 +9,10 @@ A modern, glassmorphic-style Chat UI built with HTML, CSS, and JavaScript (no fr
 - 🔍 Live Chat Search
 - 📋 Context Menu (Copy, Delete, Forward)
 
-## 📷 Preview
-
-![screenshot](assets/demo-screenshot.png)
 
 ## 🚀 Live Demo
 
-[🔗 View on GitHub Pages](https://Sumanth7770.github.io/Chat-Uis/)
+https://letshang.netlify.app/
 
 ## 🛠️ Built With
 
