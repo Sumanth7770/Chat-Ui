@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chat UI Clone</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="chat-container">
+    
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="contact">
+        <img src="download (15).jpg" alt="Avatar" class="avatar" />
+        <div class="contact-info">
+          <h4>RCB GROUP</h4>
+          <p>RCB RCB RCB</p>
+        </div>
+        <span class="timestamp">10:30 AM</span>
+      </div>
+            <div class="contact">
+        <img src="download (14).jpg" alt="Avatar" class="avatar" />
+        <div class="contact-info">
+          <h4>NITIN</h4>
+          <p>Party?</p>
+        </div>
+        <span class="timestamp">09:30 AM</span>
+      </div>
+            <div class="contact">
+        <img src="download (7).jpg"Avatar" class="avatar" />
+        <div class="contact-info">
+          <h4>Sarosh</h4>
+          <p>where are you?</p>
+        </div>
+        <span class="timestamp">09:20 AM</span>
+      </div>
+            <div class="contact">
+        <img src="graduate.jpg" alt="Avatar" class="avatar" />
+        <div class="contact-info">
+          <h4>Suhas</h4>
+          <p>Where are you?</p>
+        </div>
+        <span class="timestamp">08:30 AM</span>
+      </div>
+            <div class="contact">
+        <img src="WhatsApp Image 2024-12-30 at 23.29.51 (1).jpeg" alt="Avatar" class="avatar" />
+        <div class="contact-info">
+          <h4>Prashanth</h4>
+          <p>Kaas haako</p>
+        </div>
+        <span class="timestamp">01:30 AM</span>
+      </div>
+            <div class="contact">
+        <img src="WhatsApp Image 2025-05-19 at 22.10.16.jpeg" alt="Avatar" class="avatar" />
+        <div class="contact-info">
+          <h4>Mota</h4>
+          <p>Super bro</p>
+        </div>
+        <span class="timestamp">11:30 PM</span>
+      </div>
+            <div class="contact">
+        <img src="WhatsApp_Image_2024-09-11_at_21.12.51-removebg-preview (2).png" alt="Avatar" class="avatar" />
+        <div class="contact-info">
+          <h4>Jai</h4>
+          <p>Sumo</p>
+        </div>
+        <span class="timestamp">11:30 PM</span>
+      </div>
+            <div class="contact">
+        <img src="download.jpg" alt="Avatar" class="avatar" />
+        <div class="contact-info">
+          <h4>Virat Kohli</h4>
+          <p>Hey, sumanth!</p>
+        </div>
+        <span class="timestamp">09:30 AM</span>
+      </div>
+            <div class="contact">
+        <img src="download (15).jpg" alt="Avatar" class="avatar" />
+        <div class="contact-info">
+          <h4>Dhoni</h4>
+          <p>RCB RCB RCB</p>
+        </div>
+        <span class="timestamp">10:30 AM</span>
+      </div>
+            <div class="contact">
+        <img src="graduate.jpg" alt="Avatar" class="avatar" />
+        <div class="contact-info">
+          <h4>Devillers</h4>
+          <p>RCB RCB RCB</p>
+        </div>
+        <span class="timestamp">10:30 AM</span>
+      </div>
+            <div class="contact">
+        <img src="download (7).jpg" alt="Avatar" class="avatar" />
+        <div class="contact-info">
+          <h4>vishal</h4>
+          <p>kaas haako</p>
+        </div>
+        <span class="timestamp">10:30 AM</span>
+      </div>
+
+    </aside>
+
+    <!-- Chat Window -->
+    <main class="chat-window">
+      
+      <!-- Header -->
+      <header class="chat-header">
+  <h3>Sumanth</h3>
+  <div class="header-right">
+    <span class="status online">Online</span>
+    <button id="theme-toggle">🌙</button>
+  </div>
+</header>
+
+<!-- Search Bar -->
+<div class="chat-search">
+  <input type="text" id="search-input" placeholder="Search messages..." />
+</div>
+
+
+      <!-- Messages Area -->
+      <section class="messages" id="messages">
+        <div class="message received">
+          <p>Hello!</p>
+          <span class="msg-time">10:32 AM</span>
+        </div>
+        <div class="message sent">
+          <p>Hi! What's up?</p>
+          <span class="msg-time">10:33 AM</span>
+        </div>
+        <!-- Typing indicator -->
+        <div id="typing-indicator" class="typing hidden">Jane Doe is typing...</div>
+      </section>
+
+      <!-- Chat Input -->
+      <footer class="chat-input">
+        <input type="text" placeholder="Type a message..." />
+        <button class="send-btn">📤</button>
+      </footer>
+    </main>
+  </div>
+  <!-- Context Menu -->
+<div id="context-menu" class="context-menu hidden">
+  <ul>
+    <li id="copy-msg">📋 Copy</li>
+    <li id="delete-msg">🗑️ Delete</li>
+    <li id="forward-msg">📤 Forward</li>
+  </ul>
+</div>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
